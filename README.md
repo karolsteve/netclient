@@ -62,7 +62,8 @@ Params is encrypted in base64 per default. but you can override this behavior by
  NetClient.newRequest(testUrl, new NetParamsEncrypting() {
                 @Override
                 public byte[] encrypt(String params) {
-                    return new byte[0];
+                    byte[] encrypted = ... // encrypt param with your own algorithm or return params.getBytes() if no needed
+                    return encrypted;
                 }
             })
 ```
