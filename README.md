@@ -5,7 +5,7 @@ your response should have at least 2 key, error and value
 error should be a boolean wha give state of process (true if an error occur, false else)
 value should be you respnse data
 
-##async Request example
+## async Request example
 ```Java
 NetClient.newRequest(testUrl)
             .setBody(body)
@@ -21,7 +21,7 @@ NetClient.newRequest(testUrl)
                 }
             });
 ```          
-##sync Request example
+## sync Request example
 ```Java
 try {
     NetBody netBody = NetClient.newRequest(testUrl)
