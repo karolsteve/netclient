@@ -72,7 +72,7 @@ public class NetLog {
         try {
             FileOutputStream fos = new FileOutputStream(logFile);
             writer = new OutputStreamWriter(fos);
-            writer.write("-----Adwa Network Log for " + applicationName + " -> Date " +
+            writer.write("-----Network Log for " + applicationName + " -> Date " +
                     dateFormat.format(new Date()) + "----\n\n\n");
         } catch (java.io.IOException e) {
             e.printStackTrace();

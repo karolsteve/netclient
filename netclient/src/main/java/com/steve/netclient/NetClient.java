@@ -22,7 +22,7 @@ import com.steve.netclient.encrypting.NetBase64ParamsEncrypting;
 import com.steve.netclient.encrypting.NetParamsEncrypting;
 
 /**
- * Cette class représente le client pour les differents web services de Adwa
+ * Cette class représente le client pour les differents web services
  * <p>Pour obtenir une instance de celle ci, on passe par le Builder</p>
  * créé le 15/12/2017
  *
@@ -304,7 +304,7 @@ public class NetClient implements Callable<NetBody> {
 
         /**
          * Définir le corps de la requête
-         * <p>Le corps sera automatiquement chiffré avec l'algorithme de chiffrement d'Adwa</p>
+         * <p>Le corps sera automatiquement chiffré avec l'algorithme de chiffrement</p>
          *
          * @param body corps de la requête non encodé
          * @return l'instance actuelle du Builder, pour d'éventuelles modifications
@@ -345,7 +345,7 @@ public class NetClient implements Callable<NetBody> {
     }
 
     /**
-     * Enumération des méthodes d'Adwa
+     * Enumération des méthodes
      */
     public enum Method {
         POST, GET
@@ -356,7 +356,7 @@ public class NetClient implements Callable<NetBody> {
      *
      * @return une instance d'{@link NetQueue}
      */
-    public static NetQueue newAdwaNetQueue() {
+    public static NetQueue newNetQueue() {
         return new NetQueue();
     }
 }

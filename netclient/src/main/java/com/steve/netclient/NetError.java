@@ -1,7 +1,7 @@
 package com.steve.netclient;
 
 /**
- * Classe qui gère les differentes exceptions réseaux d'Adwa
+ * Classe qui gère les differentes exceptions réseaux
  *
  * @author Steve Tchatchouang
  */
