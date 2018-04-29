@@ -1,6 +1,6 @@
 # netclient
 
-Easy make a request in sync or async mode with performance optimisation.
+Easy make a request in sync or async mode with performance and thread optimisation.
 - your response should have at least 2 key, error and value.
 - error should be a boolean wha give state of process (true if an error occur, false else)
 - value should be you response data.
