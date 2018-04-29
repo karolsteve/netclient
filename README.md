@@ -76,3 +76,8 @@ NetClient netClient = NetClient.newRequest(testUrl)
         NetClient.newNetQueue().addToQueue(netClient);
         
 ```
+
+## Gradle
+```Grovy
+compile 'com.steve:netclient:1.0.0'
+```
