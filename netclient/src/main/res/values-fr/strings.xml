@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_occur">Une erreur s\'est produite. veuillez réessayer</string>
+    <string name="connection_problem">Impossible de se connecter. vérifiez votre connexion et réessayez</string>
+    <string name="empty_result">Aucun résultat</string>
+    <string name="server_problem_desc">Problème au niveau du serveur</string>
+    <string name="oops_desc">Oops une erreur s\'est produite. réessayez plus tard</string>
+    <string name="time_out_retry">Time out. veuillez réessayer</string>
+</resources>

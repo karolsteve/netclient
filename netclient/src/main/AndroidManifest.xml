@@ -1,0 +1,4 @@
+<manifest package="com.steve.netclient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

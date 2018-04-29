@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_occur">Error occur. please retry</string>
+    <string name="connection_problem">Failed to connect. please check your connection and retry</string>
+    <string name="empty_result">Empty result</string>
+    <string name="server_problem_desc">Error with server</string>
+    <string name="oops_desc">Oops please retry later</string>
+    <string name="time_out_retry">Time out. please retry</string>
+</resources>
