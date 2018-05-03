@@ -23,12 +23,12 @@ compile 'com.steve:netclient:1.0.0'
 ```Java
 public class App extends Application {
 
-    private static App sInstance;
+    ---
 
     @Override
     public void onCreate() {
         super.onCreate();
-        sInstance = this;
+        ---
         //second param is a boolean which enable/disable loggin
         NetClient.init("testApp",BuildConfig.DEBUG);
     }
