@@ -37,7 +37,7 @@ public class App extends Application {
 
 }
 ```
-## async Request example
+## async request example
 ```Java
 NetClient.newRequest(testUrl)
             .setBody(body)
@@ -53,7 +53,7 @@ NetClient.newRequest(testUrl)
                 }
             });
 ```          
-## sync Request example
+## sync request example
 ```Java
 try {
     NetBody netBody = NetClient.newRequest(testUrl)
@@ -77,8 +77,7 @@ Params is encrypted in base64 per default. but you can override this behavior by
                 }
             })
 ```
-You can also use a queue pattern like in volley
-#### example
+#### You can also use a queue pattern like in volley
 ```Java
 NetClient netClient = NetClient.newRequest(testUrl)
                 .setBody(body)
