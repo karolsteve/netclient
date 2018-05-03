@@ -6,7 +6,19 @@ Easy make a request in sync or async mode with performance and thread optimisati
 - value should be you response data.
 - auto loggig in debug mode
 you can check example
-
+## Gradle
+```
+compile 'com.steve:netclient:1.0.0'
+```
+## Maven
+```Maven
+<dependency>
+  <groupId>com.steve</groupId>
+  <artifactId>netclient</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
 ## You should first init client in your application instance
 ```Java
 public class App extends Application {
@@ -21,9 +33,7 @@ public class App extends Application {
         NetClient.init("testApp",BuildConfig.DEBUG);
     }
 
-    public static synchronized App getInstance() {
-        return sInstance;
-    }
+    ---
 
 }
 ```
@@ -76,9 +86,4 @@ NetClient netClient = NetClient.newRequest(testUrl)
 
         NetClient.newNetQueue().addToQueue(netClient);
         
-```
-
-## Gradle
-```Grovy
-compile 'com.steve:netclient:1.0.0'
 ```
